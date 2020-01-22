@@ -14,6 +14,15 @@ public class Student {
     private String name;
     private double GPA;
     private String email;
+    private String status;
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
     /**
      * Get the value of name
      *
